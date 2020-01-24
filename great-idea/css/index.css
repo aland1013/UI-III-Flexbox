@@ -186,7 +186,7 @@ p, footer {
   margin: 0 auto 30px auto;
 }
 
-.services-top p, .services-content-box p, .bottom-left p {
+ul, .services-top p, .services-content-box p, .bottom-left p {
   font-size: 10.5px;
 }
 
@@ -197,7 +197,7 @@ p, footer {
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .services-content-box {
