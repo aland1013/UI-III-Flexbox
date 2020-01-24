@@ -182,11 +182,11 @@ p, footer {
   
 }
 
-.services-header-img {
+.services-header-img, .about-banner {
   width: 100%;
 }
 
-.services-top {
+.services-top, .about-top {
   width: 90%;
   margin: 0 auto 30px auto;
 }
@@ -195,10 +195,10 @@ ul, .services-top p, .services-content-box p, .bottom-left p {
   font-size: 10.5px;
 }
 
-.services-content {
+.services-content, .about-content {
   width: 90%;
   margin: auto;
-  padding: 10px 0;
+  padding: 30px 0;
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 1px solid black;
@@ -212,6 +212,24 @@ ul, .services-top p, .services-content-box p, .bottom-left p {
   margin: 20px 0 20px 0;
   background-color: #f4f3f4;
   border: 1px solid black;
+}
+
+.about-content-box {
+  flex-direction: column;
+  width: 49%;
+  padding: 15px;
+  margin: 10px 0 0;
+  border: 1px solid black;  
+}
+
+.about-content-box h2 {
+  margin: 0 auto 20px;
+}
+
+.about-img {
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .services-button {
