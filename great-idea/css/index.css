@@ -91,8 +91,13 @@ nav a {
   font-size: 60%;
 }
 
-.logo {
+a {
+  display: block;
   width: 25%;
+}
+
+a > img {
+  width: 100%;
 }
 
 .top-section {
