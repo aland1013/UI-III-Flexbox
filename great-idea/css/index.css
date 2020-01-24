@@ -159,10 +159,87 @@ h1 {
 }
 
 h2 {
+  font-size: 18px;
+}
+
+h3 {
   font-size: 12px;
   margin-bottom: 10px;
 }
 
 p, footer {
   font-size: 10px;
+}
+
+.img-wrapper {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+.services-top {
+  width: 90%;
+  margin: 0 auto 30px auto;
+}
+
+.services-top p, .services-content-box p, .bottom-left p {
+  font-size: 10.5px;
+}
+
+.services-content {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.services-content-box {
+  flex-direction: column;
+  width: 47%;
+  padding: 15px;
+  margin: 20px 0 20px 0;
+  background-color: #f4f3f4;
+  border: 1px solid black;
+}
+
+.services-button {
+  width: 45%;
+  margin: 10px 0 0;
+  font-size: 8px;
+}
+
+.services-bottom {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0 50px;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  flex-direction: column;
+  width: 47%;
+}
+
+.bottom-left ul {
+  padding-top: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:before {
+  content: "•";
+  padding-right: 10px;
+}
+
+.services-info-img {
+  width: 48%;
 }
